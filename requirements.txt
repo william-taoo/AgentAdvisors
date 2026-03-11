@@ -1,0 +1,46 @@
+# Core web framework and server
+fastapi
+uvicorn[standard]
+
+# Data validation and settings
+pydantic
+python-dotenv
+
+# Database and migrations
+sqlalchemy
+alembic
+psycopg2-binary
+
+# Task queue / scheduling (later phases)
+celery
+redis
+
+# Financial data and analysis
+yfinance
+ta
+vectorbt
+backtrader
+
+# News and feeds
+newsapi-python
+feedparser
+
+# Market data / fundamentals / analyst data
+finnhub-python
+
+# NLP, embeddings, and vector search
+sentence-transformers
+pinecone
+
+# Machine learning and deep learning (later phases)
+scikit-learn
+torch
+
+# HTTP and utilities
+requests
+
+# LLMs, agents, and observability
+openai
+langgraph
+langsmith
+

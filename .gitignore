@@ -1,0 +1,9 @@
+.env
+alembic.ini
+**/__pycache__/
+*.pyc
+*.cache
+/venv
+.vscode/
+.cursor/
+**/versions/
