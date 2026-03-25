@@ -18,14 +18,3 @@ The main technologies this app uses are
 * `PostgreSQL`
 * `Pinecone`
 * `LangGraph`
-
-## Ingestion targets
-
-Ingestion now supports user-driven relevance:
-* A new `user_research_interests` table stores active per-user research targets
-  (ticker, industry, sector, and keyword).
-* The ingestion pipeline resolves targets from active user interests and merges
-  them with `INGEST_TICKERS` defaults.
-* NewsAPI queries use the merged topics; yfinance and Finnhub use merged ticker
-  targets.
-* Toggle behavior with `INGEST_ENABLE_USER_SCOPED_TARGETS` (`true` by default).
