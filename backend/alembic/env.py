@@ -25,6 +25,8 @@ from app.models import (  # noqa: E402
     SentimentScore,
     AgentDecision,
     Article,
+    AnalystSnapshot,
+    UserResearchInterest,
 )
 
 config = context.config
